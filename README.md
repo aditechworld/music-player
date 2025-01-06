@@ -21,3 +21,22 @@ It has multiple state,
 - stop
 
 and a seek bar which track song progress.
+
+## How to run this application 
+
+### Prerequisits
+1. Node
+To run this applciation node must be present inside your local machine.
+if not then go to this website https://nodejs.org/en/download
+2. Git, install for here https://git-scm.com/downloads/win
+### After successfull installation of tools.
+Step 1: Go into folder, then open CMD run this command.
+> `git clone https://github.com/aditechworld/music-player.git`.
+
+> `cd music-player`
+
+> `npm install`
+
+> `npm run dev`
+
+go to url that showing.
