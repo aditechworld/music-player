@@ -1,8 +1,23 @@
-# React + Vite
+# Local Music Player
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Simple Local Music Player, Which Work with Hand Gesture.
 
-Currently, two official plugins are available:
+# UI
+Complete UI Divide into multiple individual components.
+1. Navbar
+2. Track List
+3. Footer Music Controls
+## Navbar
+This Component has browser button to search music in particular folder.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Track List Component
+This component display list of song present in that selected folder.
+
+## Footer Music Controls
+This component recive audio file url and start playing music,
+It has multiple state,
+- play
+- pause
+- stop
+
+and a seek bar which track song progress.
