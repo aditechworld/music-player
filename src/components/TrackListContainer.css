@@ -1,0 +1,37 @@
+.track-list-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #222;
+    color: #fff;
+    border-radius: 8px;
+  }
+  
+  .track-list {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .track-list th,
+  .track-list td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .track-list th {
+    background-color: #444;
+  }
+  
+  .track-item {
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .track-item:hover {
+    background-color: #333;
+  }
+  
+  .track-item.active {
+    background-color: #555;
+  }
+  
